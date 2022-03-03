@@ -1,0 +1,24 @@
+{
+  "name": "ap-queuefy",
+  "version": "1.0.0",
+  "description": "Easy way to limit maximum number of parallel promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apescaru/ap-queuefy.git"
+  },
+  "keywords": [
+    "promise",
+    "concurrency"
+  ],
+  "author": "Andrei Alexandru Pescaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apescaru/ap-queuefy/issues"
+  },
+  "homepage": "https://github.com/apescaru/ap-queuefy#readme"
+}
