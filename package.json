@@ -1,6 +1,6 @@
 {
   "name": "ap-queuefy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy way to limit maximum number of parallel promises",
   "main": "index.js",
   "scripts": {
