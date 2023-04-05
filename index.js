@@ -1,4 +1,4 @@
-export async function apqMap(items, concurrency, callback) {
+async function apqMap(items, concurrency, callback) {
     if(typeof items != "object" || !items.length) throw new TypeError("First parameter is a non-empty array");
     if(typeof concurrency != "number" || concurrency === 0) throw new TypeError("Second parameter is a non-zero positive integer");
     if(typeof callback != "function") throw new TypeError("Third parameter is a function with one parameter");
@@ -25,3 +25,5 @@ export async function apqMap(items, concurrency, callback) {
     }
     return ret;
 }
+
+module.exports = apqMap;
